@@ -1,6 +1,8 @@
 def perform_operation(num1, num2, operation):
     if operation == "add":
         result = 0
+    elif operation == "subtruct":
+        result = 0
     match operation:
         case "add":
             return num1 + num2
